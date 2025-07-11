@@ -1,6 +1,6 @@
 {
   "name": "@yesdevs/react-native-perspective-image-cropper",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "description": "Fork de react-native-perspective-image-cropper con mejoras personalizadas por YesDevs",
   "main": "index.js",
   "keywords": [
