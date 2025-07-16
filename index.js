@@ -211,9 +211,9 @@ class CustomCrop extends Component {
                     >
                         <AnimatedPolygon
                             ref={(ref) => (this.polygon = ref)}
-                            fill={this.props.overlayColor || 'blue'}
+                            fill={this.props.overlayColor || 'transparent'}
                             fillOpacity={this.props.overlayOpacity || 0.5}
-                            stroke={this.props.overlayStrokeColor || 'blue'}
+                            stroke={this.props.overlayStrokeColor || 'transparent'}
                             points={this.state.overlayPositions}
                             strokeWidth={this.props.overlayStrokeWidth || 3}
                         />
@@ -335,7 +335,7 @@ const s = (props) => ({
         borderRadius: 50,
         height: 10,
         width: 0,
-        backgroundColor: props.handlerColor || 'blue',
+        backgroundColor: props.handlerColor || 'transparent',
         zIndex: 9999
     },
     handlerRound: {
@@ -343,17 +343,17 @@ const s = (props) => ({
         position: 'absolute',
         height: 29.6,
         borderRadius: 100,
-        backgroundColor: props.handlerColor || 'blue',
+        backgroundColor: props.handlerColor || 'transparent',
         zIndex: 9999,
         borderWidth: 2,
-        borderColor: props.borderColor || 'blue'
+        borderColor: props.borderColor || 'transparent'
     },
     handlerRoundOuter: {
         width: 70.2,
         position: 'absolute',
         height: 70.2,
         borderRadius: 150,
-        backgroundColor: props.handlerOuterColor || 'blue',
+        backgroundColor: props.handlerOuterColor || 'transparent',
         zIndex: 9998
     },
     image: {
