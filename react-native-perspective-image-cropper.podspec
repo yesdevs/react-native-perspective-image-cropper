@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage      = "https://github.com/Michaelvilleneuve/react-native-perspective-image-cropper"
   s.license       = package["license"]
   s.authors       = package["author"]
-  s.platform      = :ios, "9.0"
+  s.platform      = :ios, "15.1"
   s.source        = { :git => "#{s.homepage}", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m,mm}"
   s.requires_arc  = true

@@ -1,6 +1,6 @@
 {
   "name": "@yesdevs/react-native-perspective-image-cropper",
-  "version": "0.5.9",
+  "version": "0.6.0",
   "description": "Fork de react-native-perspective-image-cropper con mejoras personalizadas por YesDevs",
   "main": "index.js",
   "keywords": [
@@ -43,8 +43,8 @@
   },
   "peerDependencies": {
     "@babel/runtime": ">=7.0.0",
-    "react": "^19.0.0",
-    "react-native": "^0.78.0",
+    "react": "^19.1.0",
+    "react-native": "^0.81.5",
     "react-native-svg": ">=9.0.0"
   },
   "scripts": {
