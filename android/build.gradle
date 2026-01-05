@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    implementation project(':openCVLibrary310')
+    implementation 'org.opencv:opencv-android:4.7.0'
     implementation 'com.facebook.react:react-native:+'
 }
   
