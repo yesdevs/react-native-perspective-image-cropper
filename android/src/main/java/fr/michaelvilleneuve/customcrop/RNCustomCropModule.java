@@ -15,9 +15,7 @@ import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.WritableMap;
 
-import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.OpenCVLoader;
-import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.Utils;
 import org.opencv.core.Core;
 import org.opencv.core.CvType;

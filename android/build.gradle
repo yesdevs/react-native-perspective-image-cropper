@@ -23,6 +23,11 @@ android {
         minSdkVersion safeExtGet('minSdkVersion', 24)
         targetSdkVersion safeExtGet('targetSdkVersion', 35)
     }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
 }
 
 repositories {
@@ -31,7 +36,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.opencv:opencv-android:4.7.0'
     implementation 'com.facebook.react:react-native:+'
 }
   
