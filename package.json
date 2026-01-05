@@ -1,6 +1,6 @@
 {
   "name": "@yesdevs/react-native-perspective-image-cropper",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Fork de react-native-perspective-image-cropper con mejoras personalizadas por YesDevs",
   "main": "index.js",
   "keywords": [
@@ -24,11 +24,9 @@
     "url": "https://github.com/yesdevs/react-native-perspective-image-cropper/issues"
   },
   "homepage": "https://github.com/yesdevs/react-native-perspective-image-cropper#readme",
-  "bundleDependencies": [],
   "dependencies": {
     "eslint-config-prettier": "^6.11.0",
-    "prop-types": "^15.7.2",
-    "react-native-image-size": "^1.1.3"
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
